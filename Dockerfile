@@ -1,6 +1,6 @@
 FROM alpine:latest
 RUN apk add \
-          build-base
-          ruby
+          build-base \
+          ruby \
           ruby-dev
-gem install twurl --no-ri
+RUN gem install twurl --no-ri
