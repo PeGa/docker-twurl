@@ -9,7 +9,9 @@ Extremely simple docker wrapper for twurl (Twitter client built around curl)
 
 ## Usage
 
-1. alias twurl='docker run -it twurl'
+> For a permanent alias is advisable to add it after the last line of `~/.bash_profile` or `~/.bashrc`
+
+1. `alias twurl='docker run -it twurl'`
 2. `twurl` 
 
 See https://github.com/twitter/twurl#getting-started
