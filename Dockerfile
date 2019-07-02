@@ -1,7 +1,10 @@
 FROM alpine:latest
-RUN apk add \
+RUN apk add \mi mail:
+
+
+
+
           build-base \
           ruby \
           ruby-dev
 RUN gem install twurl --no-ri
-ENTRYPOINT twurl
