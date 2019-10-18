@@ -1,7 +1,10 @@
 FROM alpine:latest
-RUN apk add \
+COPY ./publish.sh /
+RUN apk add  --no-cache \
           build-base \
           ruby \
-          ruby-dev
+          ruby-dev \
+	  perl \
+	  perl-html-parser
 RUN gem install twurl --no-ri
-CMD sh
+CMD /publish.sh
