@@ -4,3 +4,4 @@ RUN apk add \
           ruby \
           ruby-dev
 RUN gem install twurl --no-ri
+CMD sh
