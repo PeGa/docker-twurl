@@ -1,6 +1,16 @@
 # docker-twurl
 Extremely simple docker wrapper for twurl (Twitter client built around curl)
 
+## Prerrequisites:
+
+Put a working twurlrc file in the repo directory. If you don't have a working 
+twurlrc, or this is the first time you're working with this repository, 
+consider running the normal steps but adding `sh` at the end of the 
+`docker run` sentence. Once inside the container, work your way through the 
+authorization process for twurl.
+
+Refer to the [official documentation](https://github.com/twitter/twurl#getting-started) for more info.
+
 ## Installation:
 
 1. `git clone https://github.com/PeGa/docker-twurl/`
