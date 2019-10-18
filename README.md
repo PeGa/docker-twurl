@@ -1,5 +1,5 @@
-# docker-twurl
-Extremely simple docker wrapper for twurl (Twitter client built around curl)
+# docker-twurlbot
+Extremely simple docker wrapper and publisher for twurl (Twitter client built around curl)
 
 ## Prerrequisites:
 
