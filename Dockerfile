@@ -1,9 +1,5 @@
 FROM alpine:latest
-RUN apk add \mi mail:
-
-
-
-
+RUN apk add \
           build-base \
           ruby \
           ruby-dev
